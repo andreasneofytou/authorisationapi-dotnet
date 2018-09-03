@@ -1,0 +1,4 @@
+pipelines:
+  default:
+    - step:
+        name: Build and test
