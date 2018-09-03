@@ -1,5 +1,7 @@
+image: microsoft/dotnet:sdk
 pipelines:
   default:
     - step:
-        script:
-          - echo "I made a pipeline!"
+        script: 
+          - dotnet restore
+          - dotnet build 
