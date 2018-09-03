@@ -1,4 +1,5 @@
 pipelines:
   default:
     - step:
-        name: Build and test
+        script:
+          - echo "I made a pipeline!"
